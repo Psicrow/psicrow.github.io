@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block body %}
+
+    <h1>Pagina usuarios</h1>
+    {%for users in lista_users:%}
+        <p>{{users}}</p>
+        <hr>
+    {%endfor%}
+
+{% endblock %}
